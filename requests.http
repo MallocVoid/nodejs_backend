@@ -1,0 +1,17 @@
+POST http://127.0.0.1:3001/register 
+content-type: application/json
+
+{
+    "username": "testname12345678901",
+    "userpassword": "testpassword"
+}
+
+###
+
+POST http://127.0.0.1:3001/login 
+content-type: application/json
+
+{
+    "username": "testname1234567890",
+    "userpassword": "testpassword"
+}
